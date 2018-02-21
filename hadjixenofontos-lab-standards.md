@@ -1,6 +1,11 @@
 Hadjixenofontos Lab 
 Coding Standards
 
+## Development 
+
+TODO
+Develop interactively, but then copy everything into a script
+
 ## Project organization
 
 Any project should follow the following directory structure:
@@ -56,7 +61,14 @@ TODO
 
 Figuring out when to overwrite files, vs when to keep a record of what was done by creating a new file and keeping an old copy intact, is a tricky decision to make. In general, if the new file you are creating has implications for the rest of the analysis and interpretation of the results, create a new file. If the new file is simply an intermediate file in your development of a script, then overwrite the file. Of course, if the old file is likely to be helpful in you figuring out what works while you develop your scripts, then keep it until you have figured out that piece of the implementation and the old file is no longer needed. 
 
-## Python environment management
+## Environment management 
+
+Our goal is to minimize the probability that our future selves (or others who will inevitably re-run our analyses) cannot do so unambiguously. One reason why they may not be able to re-run our scripts is a difference in environments. There are multiple ways to share the setup of your environment. You can share an environment configuration file (often a YAML file) 
+
+#### Shell environments
+There is one occasion where it is not necessary to 
+
+#### Python environment management
 
 Creating isolated environments for your project is not only a good idea to avoid dependency issues when your list of projects grows, but also makes it easier for others to use your code, including others in our lab. All they'll have to do is recreate your environment by running a configuration file that you provide, and they'll be able to run your code without environment-related errors. 
 
