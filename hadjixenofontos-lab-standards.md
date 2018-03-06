@@ -137,7 +137,13 @@ TODO
 ## Further reading
 
 Please read the following paper on best practices, and follow them as best as you can!
-Wilson et al., 2014, Best Practices for Scientific Computing, PLoS Biology, 12(1)
+
+Noble, A Quick Guide to Organizing Computational Biology Projects, PLOS Computational Biology, 2009
+http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
+
+Wilson et al., Good enough practices in scientific computing, PLOS Computational Biology, 2017
+http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
+
+Wilson et al., Best Practices for Scientific Computing, PLOS Biology, 2014
 http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 
-TODO (add paper about directory organization)
